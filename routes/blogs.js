@@ -9,7 +9,7 @@ import express from 'express';
 
 const router = express.Router();
 
-router.get('/', getBlogs);
+router.get('/all', getBlogs);
 router.post('/add', addBlog);
 router.put('/edit', editBlog);
 router.delete('/delete', deleteBlog);
